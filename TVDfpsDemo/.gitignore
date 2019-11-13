@@ -1,4 +1,4 @@
-TVDfpsDemo/debug/*
-TVDfpsDemo/release/*
-TVDfpsDemo/build/*
+/debug
+/release
+/build
 
