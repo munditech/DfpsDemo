@@ -1,0 +1,2 @@
+include ':TVDfpsDemo'
+rootProject.name='DfpsDemo'
