@@ -1,0 +1,4 @@
+#Wed Nov 13 00:55:48 GMT 2019
+base.0=/work/Workspace/Android/ottapp/DfpsDemo/TVDfpsDemo/build/intermediates/dex/release/mergeDexRelease/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
