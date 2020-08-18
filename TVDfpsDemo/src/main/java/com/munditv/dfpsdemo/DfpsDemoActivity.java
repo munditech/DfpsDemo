@@ -1,21 +1,21 @@
 package com.munditv.dfpsdemo;
 
-import java.nio.ByteBuffer;
-
-import android.app.Activity;
 import android.media.MediaCodec;
 import android.media.MediaCodec.BufferInfo;
 import android.media.MediaExtractor;
 import android.media.MediaFormat;
 import android.os.Bundle;
-import android.os.Environment;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.Surface;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 
-public class DfpsDemoActivity extends Activity implements SurfaceHolder.Callback {
+import androidx.appcompat.app.AppCompatActivity;
+
+import java.nio.ByteBuffer;
+
+public class DfpsDemoActivity extends AppCompatActivity implements SurfaceHolder.Callback {
 	private static final String SAMPLE[] = { 
 		"20150320-01.MP4",
 		"20150320-02.MP4", 
